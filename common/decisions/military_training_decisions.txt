@@ -1,0 +1,237 @@
+
+helicopter_rollout_category = {
+	logistics_helicopter_rollout = {
+		icon = GFX_decision_generic_air
+		visible = {
+			has_tech = transport_helicopter1
+			NOT = { has_country_flag = logistics_helicopter_used }
+		}
+		available = {
+			hidden_trigger = { has_army_experience > 75 }
+			NOT = { has_country_flag = logistics_helicopter_recently_changed }
+			NOT = { has_country_flag = logistics_helicopter_used }
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				OR = {
+					has_equipment = { transport_helicopter_equipment > 120 }
+					has_war = no
+				}
+			}
+			else = {
+				has_equipment = { transport_helicopter_equipment > 120 }
+			}
+		}
+
+		custom_cost_trigger = {
+			has_army_experience > 75
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				num_of_military_factories > 80
+				add = 5
+			}
+		}
+
+		custom_cost_text = decision_cost_army_xp_75
+		days_re_enable = 360
+		#days_remove = -1
+		complete_effect = {
+			custom_effect_tooltip = logistics_helicopter_rollout_tt
+			hidden_effect = {
+				army_experience = -75
+				set_country_flag = logistics_helicopter_used
+				set_country_flag = { flag = logistics_helicopter_recently_changed days = 360 value = 1 }
+				set_technology = {
+					transport_helicopter_logistics_company = 1
+					popup = no
+				}
+			}
+		}
+	}
+	logistics_helicopter_remove = {
+		icon = GFX_decision_generic_air
+		visible = {
+			has_tech = transport_helicopter1
+			has_country_flag = logistics_helicopter_used
+		}
+		available = {
+			hidden_trigger = { has_army_experience > 75 }
+			NOT = { has_country_flag = logistics_helicopter_recently_changed }
+			has_country_flag = logistics_helicopter_used
+			has_equipment = { transport_helicopter_equipment > 500 }
+		}
+
+		custom_cost_trigger = {
+			has_army_experience > 75
+		}
+
+		custom_cost_text = decision_cost_army_xp_75
+		days_re_enable = 360
+		#days_remove = -1
+		complete_effect = {
+			custom_effect_tooltip = logistics_helicopter_remove_tt
+			hidden_effect = {
+				army_experience = -75
+				clr_country_flag = logistics_helicopter_used
+				set_country_flag = { flag = logistics_helicopter_recently_changed days = 360 value = 1 }
+				set_technology = {
+					transport_helicopter_logistics_company = 0
+					popup = no
+				}
+			}
+		}
+	}
+	hospital_helicopter_rollout = {
+		icon = GFX_decision_generic_air
+		visible = {
+			has_tech = transport_helicopter1
+			NOT = { has_country_flag = hospital_helicopter_used }
+		}
+		available = {
+			hidden_trigger = { has_army_experience > 75 }
+			NOT = { has_country_flag = hospital_helicopter_recently_changed }
+			NOT = { has_country_flag = hospital_helicopter_used }
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				OR = {
+					has_equipment = { transport_helicopter_equipment > 120 }
+					has_war = no
+				}
+			}
+			else = {
+				has_equipment = { transport_helicopter_equipment > 120 }
+			}
+		}
+
+		custom_cost_trigger = {
+			has_army_experience > 75
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				num_of_military_factories > 80
+				add = 5
+			}
+		}
+
+		custom_cost_text = decision_cost_army_xp_75
+		days_re_enable = 360
+		#days_remove = -1
+		complete_effect = {
+			custom_effect_tooltip = hospital_helicopter_rollout_tt
+			hidden_effect = {
+				army_experience = -75
+				set_country_flag = hospital_helicopter_used
+				set_country_flag = { flag = hospital_helicopter_recently_changed days = 360 value = 1 }
+				set_technology = {
+					transport_helicopter_field_hospital = 1
+					popup = no
+				}
+			}
+		}
+	}
+	hospital_helicopter_remove = {
+		icon = GFX_decision_generic_air
+		visible = {
+			has_tech = transport_helicopter1
+			has_country_flag = hospital_helicopter_used
+		}
+		available = {
+			hidden_trigger = { has_army_experience > 75 }
+			NOT = { has_country_flag = hospital_helicopter_recently_changed }
+			has_country_flag = hospital_helicopter_used
+			has_equipment = { transport_helicopter_equipment > 500 }
+		}
+
+		custom_cost_trigger = {
+			has_army_experience > 75
+		}
+
+		custom_cost_text = decision_cost_army_xp_75
+		days_re_enable = 360
+		#days_remove = -1
+		complete_effect = {
+			custom_effect_tooltip = hospital_helicopter_remove_tt
+			hidden_effect = {
+				army_experience = -75
+				clr_country_flag = hospital_helicopter_used
+				set_country_flag = { flag = hospital_helicopter_recently_changed days = 360 value = 1 }
+				set_technology = {
+					transport_helicopter_field_hospital = 0
+					popup = no
+				}
+			}
+		}
+	}
+	nuclear_air_to_air_rocket_rollout = {
+		icon = GFX_decision_generic_research
+		visible = {
+			has_tech = nukes_3
+			has_tech = advanced_jet_engines
+			NOT = { has_country_flag = nuclear_air_to_air_rocket_researched }
+		}
+		available = {
+			hidden_trigger = { has_air_experience > 50 }
+			NOT = { has_country_flag = nuclear_air_to_air_rocket_researched }
+		}
+		custom_cost_trigger = {
+			has_air_experience > 50
+		}
+		ai_will_do = {
+			base = 0
+		}
+
+		custom_cost_text = decision_cost_air_xp_50
+		#days_remove = -1
+		complete_effect = {
+			custom_effect_tooltip = nuclear_air_to_air_rocket_rollout_tt
+			hidden_effect = {
+				air_experience = -50
+				set_country_flag = nuclear_air_to_air_rocket_researched
+				set_technology = {
+					nuclear_air_to_air_rocket_tech = 1
+					popup = no
+				}
+			}
+		}
+	}
+	ship_depth_charge_nuclear_rollout = {
+		icon = GFX_decision_generic_research
+		visible = {
+			has_tech = nukes_3
+			has_tech = rocket_depth_charges #Suppress KNR error
+			NOT = { has_country_flag = ship_depth_charge_nuclear_researched }
+		}
+		available = {
+			hidden_trigger = { has_navy_experience > 50 }
+			NOT = { has_country_flag = ship_depth_charge_nuclear_researched }
+		}
+		custom_cost_trigger = {
+			has_navy_experience > 50
+		}
+		ai_will_do = {
+			base = 0
+		}
+
+		custom_cost_text = decision_cost_navy_xp_50
+		#days_remove = -1
+		complete_effect = {
+			custom_effect_tooltip = ship_depth_charge_nuclear_rollout_tt
+			hidden_effect = {
+				navy_experience = -50
+				set_country_flag = ship_depth_charge_nuclear_researched
+				set_technology = {
+					ship_depth_charge_nuclear_tech = 1
+					popup = no
+				}
+			}
+		}
+	}
+}

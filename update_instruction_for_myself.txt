@@ -1,0 +1,43 @@
+### Short Maintenance Guide (gotta reduce the "bus factor" and keep things simple)
+
+##
+## Part 1: Absolutely Required List
+##
+
+## \common\decisions:
+- Use "military_training_decisions.txt" from KRTX, replace `modern_depth_charges_3` with `rocket_depth_charges`.
+
+## \common\technologies:
+- Copy over "MTG_naval.txt" from KNR.
+- Copy over "MTG_naval_Support.txt" from KNR.
+- Use "naval_doctrine.txt" from KRTX, add all the appropriate `SH_battleship` entries where `battleship` exists, move `battle_cruiser` to where `heavy_cruiser` entries are.
+
+## \interface:
+- Use "countrytechtreeview.gui" from KRTX, with `naval` down to `MTG_naval` section all copied over from KNR.
+
+## \events
+- Copy over all event files from KNR, update reference to latest KR standard as appropriate. (i.e. new AST ships now head straight to reserved fleet)
+
+##
+## Part 2: Error Suppression List (not critical, but it helps)
+##
+
+## \common\units\names_ships
+- Copy over "RUS ship_names.txt" from KNR. Remove all `SOV` entries as needed.
+
+## \common\ai_equipment
+- Copy over "KR_carriers.txt" from KR directly, remove all illegal entries of `ship_carrier_armor` (KNR remove that module).
+
+## \common\
+- Use "script_enums" from KRTX, update them as needed.**
+
+  **Might help with crash reduction, but most script_enum errors just help not killing my computer with log size.
+
+## \localisation
+- Add in missing ones as needed, and notify the main KNR mod about them.
+
+##
+## Part 3: Still bugs but not sure how to clean these bugs out effectively
+##
+
+- Clean up all the the `basic_cruiser_armor_scheme`, `basic_heavy_armor_scheme`, `improved_heavy_armor_scheme` errors late (need to touch history files so this can be messy)

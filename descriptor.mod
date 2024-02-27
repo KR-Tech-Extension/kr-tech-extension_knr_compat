@@ -9,8 +9,10 @@ dependencies={
 	"KR Tech Extension"
 	"Kaiserreich Naval Rework"
 	"Kaiserredux Naval Rework"
+	"KR海军重置"
+	"KX海军重置"
 	"KR Tech Extension-SCE 1.13 Compatibility Patch"
 }
 picture="thumbnail.png"
 supported_version="1.13.*"
-path="C:/Users/sirip/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/navyfieldgfx-hoi4_sce_compat"
+path="C:/Users/sirip/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/navyfieldgfx-hoi4_knr_compat"

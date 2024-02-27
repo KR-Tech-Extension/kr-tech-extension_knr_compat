@@ -1,0 +1,15 @@
+﻿l_english:
+ ## List of missing locs from VNR:
+ ## We should really get to get VNR to add them to their mod directly later.
+
+ # Experience Modifier
+ modifier_experience_gain_armored_cruiser_training_factor: "Revived Armored Cruiser Training Experience Gain"
+ modifier_experience_gain_armored_cruiser_combat_factor: "Revived Armored Cruiser Combat Experience Gain"
+ modifier_experience_gain_auxiliary_ship_training_factor: "Auxiliary Ship Training Experience Gain"
+ modifier_experience_gain_auxiliary_ship_combat_factor: "Auxiliary Ship Combat Experience Gain"
+ modifier_experience_gain_battlecarrier_training_factor: "Battlecarrier Training Experience Gain"
+ modifier_experience_gain_battlecarrier_combat_factor: "Battlecarrier Combat Experience Gain"
+ modifier_experience_gain_behemoth_training_factor: "Behemoth Training Experience Gain"
+ modifier_experience_gain_behemoth_combat_factor: "Behemoth Combat Experience Gain"
+ modifier_experience_gain_SH_battleship_training_factor: "Super Dreadnought Training Experience Gain"
+ modifier_experience_gain_SH_battleship_combat_factor: "Super Dreadnought Combat Experience Gain"
