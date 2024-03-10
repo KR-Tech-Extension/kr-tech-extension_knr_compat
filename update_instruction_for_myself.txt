@@ -10,13 +10,13 @@
 ## \common\technologies:
 - Copy over "MTG_naval.txt" from KNR.
 - Copy over "MTG_naval_Support.txt" from KNR.
-- Use "naval_doctrine.txt" from KRTX, add all the appropriate `SH_battleship` entries where `battleship` exists, move `battle_cruiser` to where `heavy_cruiser` entries are.
+- Copy over "naval_doctrine.txt" from KNR, add all the appropriate `SH_battleship` entries where `battleship` exists, move `battle_cruiser` to where `heavy_cruiser` entries to the "modern_theory" section copied over from KRTX.
 
 ## \interface:
 - Use "countrytechtreeview.gui" from KRTX, with `naval` down to `MTG_naval` section all copied over from KNR.
 
 ## \events
-- Copy over all event files from KNR, update reference to latest KR standard as appropriate. (i.e. new AST ships now head straight to reserved fleet)
+- Copy over all event files from KNR, update reference to latest KR standard as appropriate. (i.e. new AST ships now head straight to reserved fleet instead of loaded via OOB)
 
 ##
 ## Part 2: Error Suppression List (not critical, but it helps)
