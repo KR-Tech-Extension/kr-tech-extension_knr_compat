@@ -1,0 +1,121 @@
+﻿l_english:
+
+ # This overrides both VNR and KRTX hull naming
+ # Ship Hulls #
+ ship_hull_submarine: "Standardised Coastal Submarine Hull"
+ ship_hull_submarine_short: "Standardised Coastal Submarine"
+
+ ship_hull_submarine_1: "Modernised Coastal Submarine Hull"
+ ship_hull_submarine_1_short: "Modernised Coastal Submarine"
+
+ ship_hull_submarine_2: "Fleet Submarine Hull"
+ ship_hull_submarine_2_short: "Fleet Submarine"
+
+ ship_hull_submarine_3: "Diesel-Electric Submarine Hull"
+ ship_hull_submarine_3_short: "Diesel-Electric Submarine"
+
+ ship_hull_submarine_4: "Hunter-Killer Submarine Hull"
+ ship_hull_submarine_4_short: "Hunter-Killer Submarine"
+
+ ship_hull_submarine_5: "Early Attack Submarine Hull"
+ ship_hull_submarine_5_short: "Early Attack Submarine"
+
+ #Unused by VNR
+ ship_hull_submarine_6: "True Attack Submarine Hull"
+ ship_hull_submarine_6_short: "True Attack Submarine"
+
+ ship_hull_light_1: "Torpedo Boat Destroyer Hull"
+ ship_hull_light_1_short: "Torpedo Boat Destroyer"
+
+ ship_hull_light_2: "Enlarged Destroyer Hull"
+ ship_hull_light_2_short: "Enlarged Destroyer"
+
+ ship_hull_light_3: "Hunter-Killer Destroyer Hull"
+ ship_hull_light_3_short: "Hunter-Killer Destroyer"
+
+ ship_hull_light_4: "Battle Destroyer Hull"
+ ship_hull_light_4_short: "Battle Destroyer"
+
+ ship_hull_light_5: "Modern Conventional Destroyer Hull"
+ ship_hull_light_5_short: "Modern Conventional Destroyer"
+
+ ship_hull_light_6: "Early Guided-Missile Destroyer Hull"
+ ship_hull_light_6_short: "Early Guided-Missile Destroyer"
+
+ #Unused by VNR and KRTX
+ ship_hull_light_7: "Guided-Missile Destroyer Hull"
+ ship_hull_light_7_short: "Guided-Missile Destroyer"
+
+ ship_hull_cruiser_1: "Protected and Armoured Cruiser Hull"
+ ship_hull_cruiser_1_short: "Protected and Armoured Cruiser"
+
+ ship_hull_cruiser_2: "Escort and Upgunned Cruiser Hull"
+ ship_hull_cruiser_2_short: "Escort and Upgunned Cruiser"
+
+ ship_hull_cruiser_3: "Light and Heavy Cruiser Hull"
+ ship_hull_cruiser_3_short: "Light and Heavy Cruisers"
+
+ ship_hull_cruiser_4: "Anti-Air Cruiser and Cruiser-Killer Hulls"
+ ship_hull_cruiser_4_short: "Anti-Air Cruiser and Cruiser-Killers"
+
+ ship_hull_cruiser_5: "Modern All-Gun Cruiser Hulls"
+ ship_hull_cruiser_5_short: "Modern All-Gun Cruisers"
+
+ ship_hull_cruiser_6: "Early Guided-Missile Frigate and Cruiser Hulls"
+ ship_hull_cruiser_6_short: "Early Missile Frigates and Cruisers"
+
+ #Unused by VNR and KRTX
+ ship_hull_cruiser_7: "Guided-Missile Frigate and Cruiser Hulls"
+ ship_hull_cruiser_7_short: "Missile Frigates and Cruisers
+
+ #Renamed from Armoured Cruiser to Large Cruiser
+ ship_hull_cruiser_panzerschiff: "Large Cruiser"
+ ship_hull_cruiser_panzerschiff_desc: "In the years immediately after Weltkrieg, the great naval powers all began design work on a new generation of ever more powerful battleships, in which battlecruisers were to play the role of 'fast battleships'. Their design was intended as an intermediate class, with the guns and range to fight older battleships on their own terms as well as the speed to chase down lighter cruisers and escape the more modern battleships they have no chance of beating themselves. In first attempts to do so, German engineers made almost impossible and succeeded in mating almost-battleship-level armament with a cruiser hull. The result is a ship that outguns any other known cruiser, but which is also expensive, comparatively slow and relatively poorly armoured. These ships, adopted by many countries as new 'large cruisers', are the heaviest screening vessels the world has ever seen."
+
+ ship_hull_heavy_1: "Dreadnought Hull"
+ ship_hull_heavy_1_short: "Dreadnought"
+
+ ship_hull_heavy_2: "Super Dreadnought Hull"
+ ship_hull_heavy_2_short: "Super Dreadnought"
+
+ ship_hull_heavy_3: "Fast Battleship Hull"
+ ship_hull_heavy_3_short: "Fast Battleship"
+
+ ship_hull_heavy_4: "'Fortress' Fast Battleship Hull"
+ ship_hull_heavy_4_short: "'Fortress' Fast Battleship"
+
+ ship_hull_heavy_5: "Modern All-Gun Battleship Hull"
+ ship_hull_heavy_5_short: "Modern All-Gun Battleship"
+
+ #Unused by VNR
+ ship_hull_heavy_6: "Guided-Missile Battleship Hull"
+ ship_hull_heavy_6_short: "Guided-Missile Battleship"
+
+ ship_hull_super_heavy_1: "2nd-Gen Super Dreadnought Hull"
+ ship_hull_super_heavy_1_short: "2nd-Gen Super Dreadnought"
+
+ #Unused by VNR
+ ship_hull_super_heavy_2: "3rd-Gen Super Dreadnought Hull"
+ ship_hull_super_heavy_2_short: "3rd-Gen Super Dreadnought Hull"
+
+ #Pretty sure this is unused, but better safe than sorry
+ ship_hull_carrier_0: "Seaplane Carrier Hull"
+ ship_hull_carrier_0_short: "Seaplane Carrier"
+
+ ship_hull_carrier_1: "Experimental Carrier Hull"
+ ship_hull_carrier_1_short: "Experimental Carrier"
+
+ ship_hull_carrier_2: "Fleet Carrier Hull"
+ ship_hull_carrier_2_short: "Fleet Carrier"
+
+ ship_hull_carrier_3: "Strike Carrier Hull"
+ ship_hull_carrier_3_short: "Strike Carrier"
+
+ #Unused by VNR
+ ship_hull_carrier_4: "Jet Aircraft Carrier Hull"
+ ship_hull_carrier_4_short: "Jet Aircraft Carrier"
+
+ #Renamed from Super Carier to Supercarier
+ ship_hull_super_carrier: "Supercarrier Hull"
+ ship_hull_super_carrier_short: "Supercarier"
+ ship_hull_super_carrier_desc: "As the war drawed to a close, the dominant position of carriers in the fleet has been established and great attention was paid to their capacity. Meanwhile, the enclosed hangar and armored flight deck have matured, and the new carrier has also adopted all technological innovations such as angled decks and steam catapults. This type of ship with better sortie efficiency and capacity was called supercarier."
