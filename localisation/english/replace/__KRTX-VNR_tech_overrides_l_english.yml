@@ -1,0 +1,13 @@
+﻿l_english:
+
+ # This overrides both VNR and KRTX hull naming
+ # Ship Hulls #
+
+ #Renamed from Armoured Cruiser to Large Cruiser
+ ship_hull_cruiser_panzerschiff:10 "Large Cruiser"
+ ship_hull_cruiser_panzerschiff_desc:10 "In the years immediately after Weltkrieg, the great naval powers all began design work on a new generation of ever more powerful battleships, in which battlecruisers were to play the role of 'fast battleships'. Their design was intended as an intermediate class, with the guns and range to fight older battleships on their own terms as well as the speed to chase down lighter cruisers and escape the more modern battleships they have no chance of beating themselves. In first attempts to do so, German engineers made almost impossible and succeeded in mating almost-battleship-level armament with a cruiser hull. The result is a ship that outguns any other known cruiser, but which is also expensive, comparatively slow and relatively poorly armoured. These ships, adopted by many countries as new 'large cruisers', are the heaviest screening vessels the world has ever seen."
+
+ #Renamed from Super Carier to Supercarier
+ ship_hull_super_carrier:10 "Supercarrier Hull"
+ ship_hull_super_carrier_short:10 "Supercarrier"
+ ship_hull_super_carrier_desc:10 "As the war drawed to a close, the dominant position of carriers in the fleet has been established and great attention was paid to their capacity. Meanwhile, the enclosed hangar and armored flight deck have matured, and the new carrier has also adopted all technological innovations such as angled decks and steam catapults. This type of ship with better sortie efficiency and capacity was called supercarrier."
