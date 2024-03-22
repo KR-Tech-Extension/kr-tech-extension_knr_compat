@@ -14,7 +14,7 @@ dependencies={
 	"KR Tech Extension-SCE 1.13 Compatibility Patch"
 }
 picture="thumbnail.png"
-version="1.0.4b"
+version="1.0.4c"
 supported_version="1.14.*"
 path="C:/Users/sirip/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/navyfieldgfx-hoi4_knr_compat"
 remote_file_id="3169405730"
