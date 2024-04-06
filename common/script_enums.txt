@@ -766,6 +766,11 @@ script_enum_equipment_bonus_type = {
 	mio_cat_eq_all_helicopters
 	mio_cat_eq_all_rockets
 
+	#KX special equipment (included here for compatible reasons)
+	mau_mau_equipment_0
+	reservation_equipment_0
+	jezail_equipment_0
+
 	#KNR - proper list
 	ship_hull_escort_carrier
 	ship_hull_super_carrier
