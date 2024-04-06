@@ -1,6 +1,6 @@
 # KR Tech Extension-Kaiserreich Naval Rework Compatibility Patch
 
-### Last Updated for Apr 3, 2024. (KR's 1.1 release; KNR 2024-Mar-30 release)
+### Last Updated for Apr 6, 2024. (KR's 1.1 release; KNR 2024-Mar-30 release)
 ### This compatibility patch will only be assumed to work with mod version specified in the description unless said otherwise due to the extensive modification of tech trees by both submods.
 
 This is the official compatibility patch for [KR Tech Extension](https://steamcommunity.com/sharedfiles/filedetails/?id=3105210203) and [Kaiserreich Naval Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2862849828). As of the current release, this only transposes Kaiserreich Naval Rework's naval tech tree in place of KRTX's own implementation.
@@ -11,7 +11,7 @@ This is the official compatibility patch for [KR Tech Extension](https://steamco
 - [Kaiserredux Naval Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2964793578)
 - [KX海军重置](https://steamcommunity.com/sharedfiles/filedetails/?id=2934986463)
 
-### For earlier releases, click [here](https://github.com/PPsyrius/kr-tech-extension_knr_compat/releases) and pick the version you're looking for, then follow the instructions below:
+### For earlier releases, click [here](https://github.com/KR-Tech-Extension/kr-tech-extension_knr_compat/releases) and pick the version you're looking for, then follow the instructions below:
 1) Download this submod.
 2) Delete any former versions and ensure that you've unsubscribed from the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3169405730) version of this mod.
 3) Extract the .zip to `Documents\Paradox Interactive\Hearts of Iron IV\mod\kr-tech-extension_knr_compat`.
