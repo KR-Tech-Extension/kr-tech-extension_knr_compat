@@ -20,9 +20,6 @@
 ## Part 2: Error Suppression List (not critical, but it helps)
 ##
 
-## \common\units\names_ships
-- Copy over "RUS ship_names.txt" from KNR. Remove all `SOV` entries as needed.
-
 ## \common\ai_equipment
 - Copy over "KR_carriers.txt" from KR directly, remove all illegal entries of `ship_carrier_armor` (KNR remove that module).
 
