@@ -40,6 +40,7 @@ helicopter_rollout_category = {
 		days_re_enable = 360
 		#days_remove = -1
 		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete logistics_helicopter_rollout (KR_tech_extension)"
 			custom_effect_tooltip = logistics_helicopter_rollout_tt
 			hidden_effect = {
 				army_experience = -75
@@ -73,6 +74,7 @@ helicopter_rollout_category = {
 		days_re_enable = 360
 		#days_remove = -1
 		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete logistics_helicopter_remove (KR_tech_extension)"
 			custom_effect_tooltip = logistics_helicopter_remove_tt
 			hidden_effect = {
 				army_experience = -75
@@ -125,6 +127,7 @@ helicopter_rollout_category = {
 		days_re_enable = 360
 		#days_remove = -1
 		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete hospital_helicopter_rollout (KR_tech_extension)"
 			custom_effect_tooltip = hospital_helicopter_rollout_tt
 			hidden_effect = {
 				army_experience = -75
@@ -158,6 +161,7 @@ helicopter_rollout_category = {
 		days_re_enable = 360
 		#days_remove = -1
 		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete hospital_helicopter_remove (KR_tech_extension)"
 			custom_effect_tooltip = hospital_helicopter_remove_tt
 			hidden_effect = {
 				army_experience = -75
@@ -191,6 +195,7 @@ helicopter_rollout_category = {
 		custom_cost_text = decision_cost_air_xp_50
 		#days_remove = -1
 		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete nuclear_air_to_air_rocket_rollout (KR_tech_extension)"
 			custom_effect_tooltip = nuclear_air_to_air_rocket_rollout_tt
 			hidden_effect = {
 				air_experience = -50
@@ -223,12 +228,51 @@ helicopter_rollout_category = {
 		custom_cost_text = decision_cost_navy_xp_50
 		#days_remove = -1
 		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete ship_depth_charge_nuclear_rollout (KR_tech_extension)"
 			custom_effect_tooltip = ship_depth_charge_nuclear_rollout_tt
 			hidden_effect = {
 				navy_experience = -50
 				set_country_flag = ship_depth_charge_nuclear_researched
 				set_technology = {
 					ship_depth_charge_nuclear_tech = 1
+					popup = no
+				}
+			}
+		}
+	}
+	fixed_explosive_charge_rollout = {
+		icon = GFX_decision_generic_research
+		visible = {
+			OR = {
+				AND = {
+					has_game_rule = { rule = krtx_explosive_charge_options option = RESTRICTED_KRTX }
+					surrender_progress > 0.5
+				}
+				has_game_rule = { rule = krtx_explosive_charge_options option = UNRESTRICTED_KRTX }
+			}
+			NOT = { has_country_flag = fixed_explosive_charge_researched }
+		}
+		available = {
+			hidden_trigger = { has_air_experience > 5 }
+			NOT = { has_country_flag = fixed_explosive_charge_researched }
+		}
+		custom_cost_trigger = {
+			has_air_experience > 5
+		}
+		ai_will_do = {
+			base = 0
+		}
+
+		custom_cost_text = decision_cost_air_xp_5
+		#days_remove = -1
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete fixed_explosive_charge_rollout (KR_tech_extension)"
+			custom_effect_tooltip = fixed_explosive_charge_rollout_tt
+			hidden_effect = {
+				air_experience = -5
+				set_country_flag = fixed_explosive_charge_researched
+				set_technology = {
+					fixed_explosive_charge_tech_krtx = 1
 					popup = no
 				}
 			}
