@@ -3259,7 +3259,7 @@ technologies = {
 			position = { x = 1 y = @1944_module }
 		}
 		dependencies = {
-				semi_modern_fire_control_system = 1 # Changed dependent tech that originally unlock fire control system 4
+				future_computing_machine = 1 # Changed dependent tech that originally unlock fire control system 5
 		}
 		path = {
 			leads_to_tech = naval_tactical_data_system
@@ -3336,7 +3336,7 @@ technologies = {
 			position = { x = -2 y = @1948_module }
 		}
 		dependencies = {
-			advanced_computing_machine = 1
+			future_computing_machine_2 = 1 # Now requires a later computer to work
 		}
 
 		ai_will_do = {
@@ -3364,7 +3364,7 @@ technologies = {
 		}
 		dependencies = {
 			future_radar_3 = 1 # Changed dependent tech that unlocks phased radar
-			modern_fire_control_system = 1 # Changed dependent tech that originally unlock fire control system 5
+			future_computing_machine_3 = 1 # Changed dependent tech that originally unlock fire control system 6
 		}
 
 		ai_will_do = {
@@ -3417,6 +3417,7 @@ technologies = {
 		}
 		dependencies = {
 			naval_radio_guiding_system = 1
+			future_computing_machine_2 = 1 # How do you make drones without a good computer?
 		}
 
 		ai_will_do = {
@@ -3442,7 +3443,7 @@ technologies = {
 			position = { x = 2 y = @1952 }
 		}
 		dependencies = {
-			advanced_centimetric_radar = 1
+			future_radar_2 = 1 # Now require a later radar
 		}
 
 		ai_will_do = {
