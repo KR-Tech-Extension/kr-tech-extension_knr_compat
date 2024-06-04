@@ -19,6 +19,9 @@ technologies = {
 		heavy_cruiser = {
 			max_organisation = 5
 		}
+		medium_cruiser = {
+			max_organisation = 5
+		}
 		light_cruiser = {
 			max_organisation = 5
 		}
@@ -164,6 +167,11 @@ technologies = {
 
 		# EFFECT #############
 		heavy_cruiser = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+			anti_air_attack = 0.1
+		}
+		medium_cruiser = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 			anti_air_attack = 0.1
@@ -456,6 +464,12 @@ technologies = {
 			armor_value = 0.1
 		}
 
+		medium_cruiser = {
+			max_organisation = 10
+			hg_attack = 0.1
+			armor_value = 0.1
+		}
+
 		battle_cruiser = {
 			max_organisation = 10
 			hg_attack = 0.1
@@ -539,6 +553,10 @@ technologies = {
 			max_organisation = 15
 		}
 
+		medium_cruiser = {
+			max_organisation = 15
+		}
+
 		path = {
 			leads_to_tech = surface_harassment
 			research_cost_coeff = 1
@@ -613,6 +631,9 @@ technologies = {
 			anti_air_attack = 0.2
 		}
 		heavy_cruiser = {
+			anti_air_attack = 0.2
+		}
+		medium_cruiser = {
 			anti_air_attack = 0.2
 		}
 		battle_cruiser = {
@@ -711,6 +732,11 @@ technologies = {
 			convoy_raiding_coordination = 0.1
 		}
 		heavy_cruiser = {
+			max_organisation = 10
+			naval_speed = 0.15
+			convoy_raiding_coordination = 0.1
+		}
+		medium_cruiser = {
 			max_organisation = 10
 			naval_speed = 0.15
 			convoy_raiding_coordination = 0.1
