@@ -3258,6 +3258,9 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 1 y = @1944_module }
 		}
+		dependencies = {
+				semi_modern_fire_control_system = 1 # Changed dependent tech that originally unlock fire control system 4
+		}
 		path = {
 			leads_to_tech = naval_tactical_data_system
 			research_cost_coeff = 1
@@ -3361,6 +3364,7 @@ technologies = {
 		}
 		dependencies = {
 			future_radar_3 = 1 # Changed dependent tech that unlocks phased radar
+			modern_fire_control_system = 1 # Changed dependent tech that originally unlock fire control system 5
 		}
 
 		ai_will_do = {
