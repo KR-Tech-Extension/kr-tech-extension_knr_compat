@@ -1210,10 +1210,10 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		path = {
-			leads_to_tech = phased_array_radar
-			research_cost_coeff = 1
-		}
+		# path = {
+		# 	leads_to_tech = phased_array_radar
+		# 	research_cost_coeff = 1
+		# }
 		path = {
 			leads_to_tech = decoy_launching_system
 			research_cost_coeff = 1
@@ -3360,7 +3360,7 @@ technologies = {
 			position = { x = 1 y = @1952_module }
 		}
 		dependencies = {
-			phased_array_radar = 1
+			future_radar_3 = 1 # Changed dependent tech that unlocks phased radar
 		}
 
 		ai_will_do = {
