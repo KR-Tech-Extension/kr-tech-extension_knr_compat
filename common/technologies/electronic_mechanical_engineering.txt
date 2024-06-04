@@ -1973,7 +1973,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_radio_5
-			ship_radar_5 # Put radar 5 here with similar year limit as KNR
+			ship_radar_5 # Put radar 5 here with similar year limit as KNR, radar_6 is unused for now
 			radio_navigation_3
 		}
 
@@ -2048,8 +2048,10 @@ technologies = {
 
 		research_cost = 1.75
 		start_year = 1957
-		#enable_equipment_modules = {
-		#}
+		enable_equipment_modules = {
+			tank_radio_6
+			radio_navigation_4
+		}
 
 		folder = {
 			name = electronics_folder
@@ -2336,8 +2338,9 @@ technologies = {
 
 		# small boost to research speed
 		research_speed_factor = 0.04
-		#enable_equipment_modules = {
-		#}
+		enable_equipment_modules = {
+			stabilizer_4
+		}
 		research_cost = 5
 		start_year = 1959
 
