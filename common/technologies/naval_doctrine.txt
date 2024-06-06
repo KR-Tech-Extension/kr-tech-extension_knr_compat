@@ -1548,7 +1548,7 @@ technologies = {
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.15
 		}
-		
+
 		medium_cruiser = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.15
@@ -1740,7 +1740,7 @@ technologies = {
 		heavy_cruiser = {
 			surface_visibility = -0.1
 		}
-		
+
 		medium_cruiser = {
 			surface_visibility = -0.1
 		}
