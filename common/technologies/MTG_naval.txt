@@ -4241,29 +4241,30 @@ technologies = {
 			mio_cat_tech_all_carrier_and_modules
 		}
 	}
-	airborne_early_warning = {
-		research_cost = 1.5
-		start_year = 1948
+	# Moved to KRTX engineering
+	# airborne_early_warning = {
+	# 	research_cost = 1.5
+	# 	start_year = 1948
 		
-		enable_equipment_modules = {
-			carrier_tracing_unit
-		}
+	# 	enable_equipment_modules = {
+	# 		carrier_tracing_unit
+	# 	}
 		
-		folder = {
-			name = mtgnavalfolder
-			position = { x = -2 y = @1948_module }
-		}
+	# 	folder = {
+	# 		name = mtgnavalfolder
+	# 		position = { x = -2 y = @1948_module }
+	# 	}
 		
-		ai_will_do = {
-			factor = 1
-		}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
 		
-		categories = {
-			naval_equipment
-			cv_tech
-			mio_cat_tech_all_carrier_and_modules
-		}
-	}
+	# 	categories = {
+	# 		naval_equipment
+	# 		cv_tech
+	# 		mio_cat_tech_all_carrier_and_modules
+	# 	}
+	# }
 	iff_device = {
 		research_cost = 1
 		start_year = 1951
@@ -5304,10 +5305,10 @@ technologies = {
 			leads_to_tech = tactical_air_navigation_system
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = airborne_early_warning
-			research_cost_coeff = 1
-		}
+		# path = {
+		# 	leads_to_tech = airborne_early_warning
+		# 	research_cost_coeff = 1
+		# }
 		path = {
 			leads_to_tech = iff_device
 			research_cost_coeff = 1
