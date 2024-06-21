@@ -1378,7 +1378,8 @@ technologies = {
 			position = { x = -1 y = 22 }
 		}
 		dependencies = {
-			nuclear_reactor = 1
+			# nuclear_reactor = 1 Not needed since nuke_naval comes after this
+			nuke_naval = 1
 		}
 
 		ai_will_do = {
@@ -4884,7 +4885,8 @@ technologies = {
 			position = { x = -2 y = 23 }
 		}
 		dependencies = {
-			nuclear_reactor = 1
+			# nuclear_reactor = 1 Not needed since nuke_naval comes after this
+			nuke_naval = 1
 		}
 
 		ai_will_do = {
