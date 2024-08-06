@@ -945,6 +945,7 @@ technologies = {
 			cruiser_ship_engine_1
 			ship_airplane_launcher_1
 			ship_hull_cruiser_role_c
+			ship_hull_cruiser_role_pc
 			ship_hull_cruiser_role_ca
 			ship_hull_cruiser_role_ac
 			ship_hull_cruiser_role_cd
@@ -1895,7 +1896,7 @@ technologies = {
 
 	cruiser_missile_upgrade = {
 		research_cost = 1
-		start_year = 1945
+		start_year = 1946
 		enable_equipment_modules = {
 			ship_hull_cruiser_role_cg
 		}
@@ -2456,7 +2457,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_armor_shbb
-			super_heavy_ship_engine_2
+			super_heavy_ship_engine_1
 		}
 
 		research_cost = 1.5
@@ -2494,6 +2495,7 @@ technologies = {
 		enable_equipment_modules = {
 			heavy_ship_engine_3
 			heavy_ship_engine_2_diesel
+			super_heavy_ship_engine_2
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_heavy
@@ -3173,7 +3175,7 @@ technologies = {
 	}
 
 	fuel_tank_upgrade = {
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1944
 
 		navy_max_range_factor = 0.1
@@ -3260,7 +3262,7 @@ technologies = {
 			position = { x = 1 y = @1944_module }
 		}
 		dependencies = {
-				future_computing_machine = 1 # Changed dependent tech that originally unlock fire control system 5
+			future_computing_machine = 1 # Changed dependent tech that originally unlock fire control system 5
 		}
 		path = {
 			leads_to_tech = naval_tactical_data_system
@@ -3917,7 +3919,6 @@ technologies = {
 			naval_strike_targetting = 0.15
 			air_agility = 0.15
 			maximum_speed = 0.1
-			build_cost_ic = -0.1
 		}
 
 		folder = {
@@ -5379,7 +5380,7 @@ technologies = {
 
 	ship_to_ship_missile = {
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1945
 
 		folder = {
 			name = mtgnavalfolder
