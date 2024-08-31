@@ -107,6 +107,7 @@ technologies = {
 			max_organisation = 10
 		}
 		strike_force_movement_org_loss = -0.1
+		positioning = 0.2
 		########
 
 		path = {
@@ -434,7 +435,7 @@ technologies = {
 			max_organisation = 20
 		}
 		medium_cruiser = {
-			surface_detection = 0.05
+			max_organisation = 20
 		}
 		armored_cruiser = {
 			max_organisation = 20
@@ -557,6 +558,7 @@ technologies = {
 		navy_anti_air_attack_factor = 0.10
 		navy_capital_ship_attack_factor = 0.1
 		strike_force_movement_org_loss = -0.1
+		positioning = 0.1
 
 		xp_research_type = navy
 		xp_unlock_cost = 75
@@ -1690,7 +1692,7 @@ technologies = {
 			surface_detection = 0.15
 		}
 
-		screening_without_screens = 0.1
+		screening_without_screens = 0.15
 		#######
 
 		path = {
@@ -1754,7 +1756,7 @@ technologies = {
 		}
 
 		naval_retreat_speed = 0.1
-		naval_retreat_chance_after_initial_combat = 0.2
+		naval_retreat_chance_after_initial_combat = 0.35
 		#######
 
 		path = {
@@ -1812,6 +1814,7 @@ technologies = {
 			max_organisation = 10
 		}
 		strike_force_movement_org_loss = -0.1
+		positioning = 0.2
 		########
 
 		path = {
@@ -2325,6 +2328,7 @@ technologies = {
 			surface_detection = 0.1
 		}
 		strike_force_movement_org_loss = -0.1
+		positioning = 0.1
 		##########
 
 		path = {
@@ -2426,6 +2430,7 @@ technologies = {
 		carrier = {
 			anti_air_attack = 0.1
 			surface_visibility = -0.1
+			surface_detection = 0.1
 		}
 		navy_carrier_air_attack_factor = 0.1
 		sortie_efficiency = 0.1
@@ -2475,8 +2480,8 @@ technologies = {
 	mass_air_raid = {
 
 		# EFFECT #############
-		naval_strike_targetting_factor = 0.1
-		naval_strike_attack_factor = 0.1
+		naval_strike_targetting_factor = 0.15
+		naval_strike_attack_factor = 0.15
 		port_strike = 0.25
 		########
 
@@ -2717,6 +2722,7 @@ technologies = {
 
 		naval_critical_score_chance_factor = 0.10
 		strike_force_movement_org_loss = -0.1
+		positioning = 0.2
 
 		###########
 
@@ -3236,6 +3242,7 @@ technologies = {
 			max_organisation = 10
 		}
 		navy_anti_air_attack_factor = 0.15
+		positioning = 0.2
 		#####
 		path = {
 			leads_to_tech = carrier_battlegroups
