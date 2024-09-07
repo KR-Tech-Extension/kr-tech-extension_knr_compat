@@ -511,6 +511,11 @@ script_enum_equipment_bonus_type = {
 	large_plane_maritime_patrol_plane_airframe_6
 	large_plane_maritime_patrol_plane_airframesuper_large_plane_airframe_1
 	large_plane_maritime_patrol_plane_airframesuper_large_plane_airframe_2
+	medium_airship_airframe_0
+	medium_plane_fighter_airframeairship_airframe_0
+	medium_plane_scout_plane_airframeairship_airframe_0
+	large_airship_airframe_0
+	large_plane_maritime_patrol_plane_airframeairship_airframe_0
 	fighter_equipment_0
 	fighter_equipment_1
 	fighter_equipment_2
@@ -571,6 +576,8 @@ script_enum_equipment_bonus_type = {
 	jet_strat_bomber_equipment_x
 	jet_heavy_strat_bomber_equipment_x
 	jet_heavy_strat_bomber_equipment_xb
+	medium_airship_equipment_0
+	heavy_airship_equipment_0
 	light_tank_aa_chassis
 	light_tank_artillery_chassis
 	light_tank_destroyer_chassis
@@ -800,4 +807,5 @@ script_enum_china_alignment_type = {
 	left_kuomintang
 	right_kuomintang
 	chinese_southern_republican
+	geacps
 }
