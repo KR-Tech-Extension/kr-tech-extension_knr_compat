@@ -1932,7 +1932,6 @@ technologies = {
 			air_air_radar_3
 			air_ground_radar_3
 			support_awacs_1
-			carrier_tracing_unit # KNR AEW is moved here
 			sonobuoy_2
 		}
 
