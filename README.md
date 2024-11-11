@@ -1,6 +1,6 @@
 # KR Tech Extension-Kaiserreich Naval Rework Compatibility Patch
 
-### Last Updated for October 6th, 2024. (KR's 1.2.0 release; KNR 2024-Sep-25 release)
+### Last Updated for November 12th, 2024. (KR's 1.3.1 release; KNR 2024-NOV-09 release)
 ### This compatibility patch will only be assumed to work with mod version specified in the description unless said otherwise due to the extensive modification of tech trees by both submods.
 
 This is the official compatibility patch for [KR Tech Extension](https://steamcommunity.com/sharedfiles/filedetails/?id=3105210203) and [Kaiserreich Naval Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2862849828). As of the current release, this only transposes Kaiserreich Naval Rework's naval tech tree in place of KRTX's own implementation.
